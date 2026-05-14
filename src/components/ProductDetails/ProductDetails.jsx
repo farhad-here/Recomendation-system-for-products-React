@@ -15,7 +15,7 @@ const ProductDetails = () =>{
        };
        useEffect(()=>{
               fetch('/FakeStore.json')
-              .then((r)=>r.json)
+              .then((r)=>r.json())
               .then((data)=>{
                      const found = data.find((p)=>p.id===Number(id));
                      setProduct(found);
