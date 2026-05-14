@@ -15,7 +15,7 @@ const Filters = ({products, setFilteredProducts})=>{
        useEffect(()=>{
               localStorage.setItem('search', search);
               localStorage.setItem('min', min);
-              localStorage.setItem('max',search);
+              localStorage.setItem('max',max);
               localStorage.setItem('category', category);
               let filtered = products.filter((p)=>
                      p.title.toLowerCase().includes(debouncedSearch.toLowerCase()),
@@ -38,9 +38,9 @@ const Filters = ({products, setFilteredProducts})=>{
                      </div>
                      <select value={category} onChange={e=>setCategory(e.target.value)}>
                             <option value="">All</option>
-                            {Array.from(new Set(products.map(p=>p.category))).map(c=>{
-                                   <option key={c}>{c}</option>
-                            })}
+                           {Array.from(new Set(products.map(p => p.category))).map(c => (
+                            <option key={c} value={c}>{c}</option>
+                            ))}
                      </select>
               </div>
        )  
