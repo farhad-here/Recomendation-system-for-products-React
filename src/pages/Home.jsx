@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import styles from './home.module.css';
+import styles from './Home.module.css';
 import { Filters } from '../components/Filters/Filters';
 import { ProductList } from '../components/ProductList/ProductList';
 
