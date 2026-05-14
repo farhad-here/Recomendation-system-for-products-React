@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import styles from './home.module.css';
-import Filters from '../components/Filters/Filters';
-import ProductList from '../components/ProductList/ProductList';
+import { Filters } from '../components/Filters/Filters';
+import { ProductList } from '../components/ProductList/ProductList';
 
 const Home = () => {
     const [products, setProducts] = useState(() => {
