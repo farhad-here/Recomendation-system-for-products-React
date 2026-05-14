@@ -1,7 +1,7 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './pages/Home';
-import ProductDetails from './components/ProductDetails/ProductDetails';
-import Cart from './components/Cart/Cart';
+import { ProductDetails } from './components/ProductDetails/ProductDetails';
+import {Cart} from './components/Cart/Cart';
 
 const App = () => {
   return(
