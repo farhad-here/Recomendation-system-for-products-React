@@ -1,0 +1,98 @@
+.filterBox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: flex-end;
+    background: #ffffff;
+    padding: 20px 24px;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 32px;
+}
+
+/* input جستجو */
+.filterBox > input[type="text"] {
+    flex: 1 1 200px;
+    padding: 10px 14px;
+    border: 1.5px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.2s;
+    background: #f9fafb;
+}
+
+.filterBox > input[type="text"]:focus {
+    border-color: #667eea;
+    background: #fff;
+}
+
+/* div های min/max */
+.filterBox > div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1 1 120px;
+}
+
+.filterBox > div label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #6b7280;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.filterBox > div input[type="number"] {
+    padding: 10px 14px;
+    border: 1.5px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.2s;
+    background: #f9fafb;
+    width: 100%;
+}
+
+.filterBox > div input[type="number"]:focus {
+    border-color: #667eea;
+    background: #fff;
+}
+
+/* select دسته‌بندی */
+.filterBox > select {
+    flex: 1 1 160px;
+    padding: 10px 14px;
+    border: 1.5px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    outline: none;
+    background: #f9fafb;
+    cursor: pointer;
+    transition: border-color 0.2s;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%236b7280' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: left 12px center;
+    padding-left: 32px;
+}
+
+.filterBox > select:focus {
+    border-color: #667eea;
+    background-color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .filterBox {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .filterBox > input[type="text"],
+    .filterBox > div,
+    .filterBox > select {
+        flex: 1 1 100%;
+        width: 100%;
+    }
+}
