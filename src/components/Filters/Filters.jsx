@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import styles from './Filters.module.css';
-import useDebounce from '../../hooks/useDebounce';
+import {useDebounce} from '../../hooks/useDebounce.js';
 
 
 const Filters = ({products, setFilteredProducts})=>{
