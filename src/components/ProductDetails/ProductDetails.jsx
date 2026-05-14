@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 import styles from './ProductDetail.module.css';
-import ProductCard from '../ProductCard/ProductCard';
+import { ProductCard } from '../ProductCard/ProductCard';
 import { useEffect, useState } from 'react';
 
 const ProductDetails = () => {
