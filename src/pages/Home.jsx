@@ -12,7 +12,7 @@ const Home = () => {
 
     useEffect(() => {
         if (products.length === 0) {
-            fetch('/FakeStore.json')
+            fetch(`${import.meta.env.BASE_URL}FakeStore.json`)
                 .then(r => r.json())
                 .then(data => {
                     setProducts(data);
