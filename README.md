@@ -52,9 +52,12 @@ npm >= 8.0.0 or yarn >= 1.22.0
 ### Installation
 
 1. Clone the repository
-bash
+```bash
 git clone https://github.com/farhad-here/Recomendation-system-for-products-React.git
+```
+```
 cd Recomendation-system-for-products-React
+```
 
 2. Install dependencies
 ```bash
@@ -76,10 +79,6 @@ yarn start
 ```
 5. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-<<<<<<< HEAD
-
-=======
->>>>>>> f18c723a89632c449d46f86941ab2837bf444e3b
 ## Contact
 
 **Farhad Ghaherdoost**
