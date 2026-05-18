@@ -76,34 +76,6 @@ yarn start
 ```
 5. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## Project Structure
-```
-Recomendation-system-for-products-React/
-├── public/
-│   └── index.html
-├── src/
-│   ├── components/
-│   │   ├── ProductCard/
-│   │   ├── RecommendationList/
-│   │   ├── UserProfile/
-│   │   └── Dashboard/
-│   ├── services/
-│   │   ├── recommendationEngine.js
-│   │   ├── api.js
-│   │   └── dataProcessor.js
-│   ├── utils/
-│   │   ├── algorithms.js
-│   │   └── helpers.js
-│   ├── hooks/
-│   │   └── useRecommendations.js
-│   ├── context/
-│   │   └── RecommendationContext.js
-│   ├── App.js
-│   └── index.js
-├── package.json
-└── README.md
-```
-
 ## Contact
 
 **Farhad Ghaherdoost**
