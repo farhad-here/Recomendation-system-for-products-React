@@ -76,7 +76,10 @@ yarn start
 ```
 5. Open [http://localhost:3000](http://localhost:3000) in your browser
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> f18c723a89632c449d46f86941ab2837bf444e3b
 ## Contact
 
 **Farhad Ghaherdoost**
